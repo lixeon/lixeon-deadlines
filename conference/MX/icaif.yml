@@ -1,0 +1,14 @@
+- title: ICAIF
+  description: International Conference on AI in Finance
+  sub: MX
+  rank: N
+  dblp: icaif
+  confs:
+    - year: 2023
+      id: icaif23
+      link: https://ai-finance.org/
+      timeline:
+        - deadline: '2023-07-06 23:59:59'
+      timezone: AoE
+      date: November 1-3, 2023
+      place: TBD

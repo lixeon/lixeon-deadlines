@@ -18,7 +18,9 @@
       </div>
       <div style="float: right">
         <el-checkbox-group v-model="rankList" size="mini" @change="handleRankChange" class="rankbox">
-          <el-checkbox-button v-for="(rank, index) in rankoptions" :label="index" :key="index">{{rank}}</el-checkbox-button>
+          <el-checkbox-button v-for="(rank, index) in rankoptions" :label="index" :key="index">
+            {{rank}}
+          </el-checkbox-button>
         </el-checkbox-group>
       </div>
     </el-row>
@@ -133,7 +135,8 @@ export default {
       typeMap: new Map(),
       timeZone: '',
       utcMap: new Map(),
-      rankoptions: {'A': 'CCF A', 'B': 'CCF B', 'C': 'CCF C', 'N': 'Non-CCF'},
+      rankoptions: {'A': 'CCF-A', 'AW': 'CCF-AW', 'B': 'CCF-B', 'C': 'CCF-C', 'N': 'Non-CCF'},
+      color: ['#AB2524','#D3545F','#F7BA0B','#28713E'],
       typesList: [],
       rankList: [],
       cachedLikes: [],

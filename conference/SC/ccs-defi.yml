@@ -1,0 +1,14 @@
+- title: CCS-DeFi
+  description: Workshop on Decentralized Finance and Security of CCS
+  sub: SC
+  rank: AW
+  dblp: defi
+  confs:
+    - year: 2023
+      id: defi2023
+      link: https://defi.security/
+      timeline:
+        - deadline: '2023-08-01 23:59:59'
+      timezone: UTC-12
+      date: November 30, 2023
+      place: Copenhagen, Denmark
