@@ -4,7 +4,7 @@
       <a href="/" class="title">lixeon-deadlines</a>
     </el-row>
     <el-row class="subtitle">
-      CCF Recommendation Conference, Journal and Finance Top Journal we are concerned Deadline Countdowns.</a>
+      CCF Recommendation Conference, Journal and Finance Top Journal we are concerned Deadline Countdowns.
     </el-row>
   </section>
 </template>
